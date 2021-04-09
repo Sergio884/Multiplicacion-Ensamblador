@@ -5,8 +5,8 @@ clr r20
 mov r19,r16
 
 /* r16 y r17 son los 
-numeros que se van
-a multiplicar*/ 
+registros numeros que 
+se van a multiplicar*/ 
 
 otro:
 	cp r17,r18
