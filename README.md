@@ -4,6 +4,10 @@
 ## lid
 * Le asigna el valor a un resgistro
 * lid rd,k => rd<-k
+## mov
+* Copiar un resgistro en otro
+* mov rd,rr
+* rd = rr
 ## clr
 * Realiza un clear a un resgistro
 * clr rd => rd<-rd-rd
@@ -13,7 +17,14 @@
 ## breq
 * Valida de la bandera z (cero) está en 1
 * breq salto
-
 ## brcs
 * Valida si hay un acarreo
 * brcs salto
+## inc
+* Incremento
+* inc rd
+* rd++
+## add
+* Suma dos registros
+* add rd,rr
+* rd <- rd + rr
