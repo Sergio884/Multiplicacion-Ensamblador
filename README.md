@@ -1,15 +1,15 @@
 # Multiplicación con sumas sucesivas
 ## ATmega8535
-
+### Set de instrucciones utilizado:
 ## lid
-* Le asigna el valor a un resgistro
+* Le asigna el valor a un registro
 * lid rd,k => rd<-k
 ## mov
-* Copiar un resgistro en otro
+* Copiar un registro en otro
 * mov rd,rr
 * rd = rr
 ## clr
-* Realiza un clear a un resgistro
+* Realiza un clear a un registro
 * clr rd => rd<-rd-rd
 ## cp
 * Le resta a su primer registro su segundo registro
@@ -20,6 +20,10 @@
 ## brcs
 * Valida si hay un acarreo
 * brcs salto
+## rjmp
+* Salto relativo
+* Salta sin validar nada
+* rjmp salto
 ## inc
 * Incremento
 * inc rd
